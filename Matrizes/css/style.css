@@ -1,0 +1,57 @@
+body { 
+    background: rgb(252, 196, 196);
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+  }
+  .tudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+  }
+  ul { 
+    display: flex; 
+    list-style:none; 
+    font-size: 400%; 
+    font-weight: 800; 
+    padding: 0; 
+    margin: 0;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    border: solid rgb(243, 134, 134);
+    border-width: 0 5px;
+    min-width: 150px;
+    font-family: 'Patrick Hand', cursive;
+    }
+  li { 
+    width: 50%;
+    text-align: center;  
+    font-family: 'Patrick Hand', cursive;
+    border-color: rgb(243, 134, 134);
+  }
+  b {
+    font-size: 500%;
+    line-height: 2;
+    margin: 0 2%;
+    font-family: 'Patrick Hand', cursive;
+   }
+
+   h1 {
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+  }
+  #a {
+    display: inline-block;
+    background: rgb(243, 134, 134);
+    color: white;
+    border-color: rgb(246, 177, 177);
+    font-size: 130%;
+    margin: 20px 0;
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  p{
+    font-family: 'Patrick Hand', cursive;
+  }
